@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .thepostion {
+            height: 90vh;
+            width: 100%;
+            position: relative;
+            border: 1px solid black;
+        }
+
+        .theobject {
+            height: 10%;
+            width: 10%;
+            position: absolute;
+            animation-name: object;
+            animation-duration: 5s;
+            background-color: green;
+            animation-iteration-count: 18;
+            animation-direction: reverse;
+            animation-fill-mode: forwards;
+            animation-delay: 2s;
+            animation-timing-function:linear ;
+        }
+
+        @keyframes object {
+            0% {
+                top: 0%;
+                left: 0%;
+            }
+
+            25% {
+                top: 0%;
+                left: 95%;
+            }
+
+            50% {
+                top: 95%;
+                left: 95%;
+            }
+
+            75% {
+                top: 95%;
+                left: 0%;
+            }
+
+            100% {
+                top: 0%;
+                left: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="thepostion">
+        <div class="theobject">
+
+        </div>
+    </div>
+</body>
+
+</html>
