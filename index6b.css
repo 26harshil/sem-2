@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+}
+#a{
+	float: left;
+}
+#b{
+	float: right;
+    color: blue;
+}
+#c{
+	float: left;
+	background-color: red;
+	width: 20%;
+	margin-right: 20px;
+}
+#d{
+	float: left;
+    margin-right: 15px;
+}
+#f{
+	float: left;
+	background-color: blue;
+	color: white;
+	width: 100%;
+}
