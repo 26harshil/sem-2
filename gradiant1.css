@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: inline-block;
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-right:  40px; 
+}
+.grad{
+    background: linear-gradient(130deg, red , yellow,blue,black);
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+  
+ 
+}
+.gradrad{
+    background: radial-gradient( red , rgb(255, 0, 251),rgb(0, 255, 0),rgb(0, 0, 0));
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    
+}

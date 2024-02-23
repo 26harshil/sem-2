@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(84, 8, 84, 0.34);
+
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.div1 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(blue, yellow, green);
+    border-radius: 10%;
+
+}
+
+.div2 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(170, 12, 12), rgb(16, 195, 96), green);
+    border-radius: 10%;
+
+}
+
+.div3 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(98, 255, 0), rgb(210, 210, 15), rgb(0, 51, 128));
+    border-radius: 10%;
+
+}
+
+.div4 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(115, 7, 113), rgb(87, 87, 60), rgb(128, 60, 0));
+    border-radius: 10%;
+}
+
+.div5 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(146, 146, 189), rgb(120, 3, 3), rgb(9, 34, 149));
+    border-radius: 10%;
+
+}
+
+.div6 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(97, 30, 121), rgb(48, 8, 18), rgb(21, 104, 193));
+    border-radius: 10%;
+
+}
+
+.div7 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(192, 192, 210),rgb(171, 204, 64), green);
+    border-radius: 10%;
+
+}
+
+.div8 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(186, 106, 31), rgba(195, 195, 8, 0.64), rgb(191, 212, 191));
+    border-radius: 10%;
+
+}
+
+.div9 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgba(175, 82, 119, 0.474), yellow, green);
+    border-radius: 10%;
+
+}
+
+.div10 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgba(21, 136, 174, 0.623), rgba(76, 76, 62, 0.306), rgb(128, 53, 0));
+    border-radius: 10%;
+
+}
+
+.div11 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(3, 3, 80), rgba(6, 66, 70, 0.277), rgb(102, 0, 128));
+    border-radius: 10%;
+
+}
+
+.div12 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(200, 255, 0), yellow, rgba(128, 0, 41, 0.343));
+    border-radius: 10%;
+}
+
+.div13 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgba(10, 174, 95, 0.533), rgb(33, 171, 23), rgba(17, 195, 88, 0.12));
+    border-radius: 10%;
+
+}
+
+.div14 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(185, 15, 151), rgb(19, 149, 151), rgb(94, 0, 128));
+    border-radius: 10%;
+}
+
+.div15 {
+    height: 15%;
+    width: 15%;
+    border: 2px solid black;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background: linear-gradient(rgb(255, 0, 102),rgb(75, 128, 0), green);
+    border-radius: 10%;
+}
