@@ -60,11 +60,10 @@ footer {
     height: 55%;
     width: 100%;
     border: 2px solid black;
-}
-
-.footer {
     display: flex;
 }
+
+
 
 .onebox {
     height: 100%;
@@ -75,6 +74,8 @@ footer {
     width: 40%;
 }
 .imagofnews {
+    display: flex;
     height: 20%;
     width: 100%;
+    margin-bottom: 3%;
 }
