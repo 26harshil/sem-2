@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+
 }
 
 .main {
@@ -19,20 +18,22 @@ header {
     margin-bottom: 1%;
     background-color: gray;
     border-bottom: 5px solid green;
-    
- 
+
+
 }
-.navbar{
-    display:flex ;
+
+.navbar {
+    display: flex;
     justify-content: space-around;
- margin-top: 20px;
+    margin-top: 20px;
     margin-left: 18px;
     width: 50%;
     float: right;
-   
+
 
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 
@@ -45,9 +46,10 @@ a{
     margin-bottom: 1%;
     display: flex;
 
-    
+
 }
-.para{
+
+.para {
     float: right;
     font-size: 13px;
     margin-top: 15px;
@@ -58,4 +60,21 @@ footer {
     height: 55%;
     width: 100%;
     border: 2px solid black;
+}
+
+.footer {
+    display: flex;
+}
+
+.onebox {
+    height: 100%;
+    width: 60%;
+}
+.twobox{
+    height: 100%;
+    width: 40%;
+}
+.imagofnews {
+    height: 20%;
+    width: 100%;
 }
