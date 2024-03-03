@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  flex-direction: column;  
+  
+    
+    
+  
+}
+.header{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+ 
+}
+.content{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    
+   
+}
+.bar{
+    height: 95%;
+    width: 90%;
+    background-color: grey;
+    border: 2px solid black;
+}
+.songmiddlepart{
+    height: 18%;
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 5%;
+    background-image: url(https://www.bostonmagazine.com/wp-content/uploads/sites/2/2019/03/daybreaker.jpg);
+    background-size: 100% ;
+    /* background-size: cover;  */
+    background-repeat: no-repeat;
+}
+.allsong{
+    height: 70%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+}
+.imgesofthecontant{
+    height: 100%;
+    width: 25%;
+    border: 2px solid black;
+}
+
+.img{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+.contantofthesong{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+
